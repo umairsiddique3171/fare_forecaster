@@ -1,6 +1,8 @@
 # fare_forecaster
 This project aims to help people predict the expected taxi fare beforehand for efficient budget planning. The project includes data collection, exploratory data analysis (EDA), data preprocessing, training different regression models, building a Streamlit web app for predictions, containerizing the app using Docker, and testing the Docker container.
 
+https://github.com/umairsiddique3171/fare_forecaster/assets/148565997/d561a292-619e-4813-a325-9bf4c6548246
+
 ## Table of Contents
  - [Overview](#overview)
  - [AI Algorithm Training](#ai-algorithm-training)
@@ -9,7 +11,7 @@ This project aims to help people predict the expected taxi fare beforehand for e
  - [License](#license)
 
 ## Overview
-This project is structured into three key phases, each playing a vital role in delivering a robust solution for Boston house price prediction:
+This project is structured into three key phases, each playing a vital role in delivering a robust solution for taxi fare prediction:
 
 - AI Algorithm Training
 - Creation of Web App
@@ -31,7 +33,7 @@ This project is structured into three key phases, each playing a vital role in d
 
 - **Model Training:**
   
-  Linear Regression and XG Boost models were trained using the preprocessed data.
+  Linear Regression and XG Boost Regression models were trained using the preprocessed data.
 
 - **Model Evaluation:**
 
@@ -47,18 +49,18 @@ This project is structured into three key phases, each playing a vital role in d
     - Root Mean Squared Error (RMSE) 
     - R Squared 
     
-    You can access AI Algorithm Training source code from [here]().
+    You can access AI Algorithm Training source code from [here](https://github.com/umairsiddique3171/fare_forecaster/tree/main/regressor).
 
 
 ## Creation of Web App
 - The project progresses to the creation of an interactive web application using Streamlit. This user-friendly interface prompts users to input relevant features, facilitating instant predictions of fares based on the trained model.
 
-- User has to input following fields for house price prediction: 
+- User has to input following fields: 
     - **Expected Trip Duration (minutes)**
     - **Commute Distance (km)**
     - **Peak Time (7-9 am / 5-8 pm) (yes/no)**
 
-    You can access App source code from [here]().
+    You can access App source code from [here](https://github.com/umairsiddique3171/fare_forecaster/tree/main/app).
 
 - **App Test on Local Host:**
     1. Clone the repository:
@@ -104,7 +106,7 @@ This project is structured into three key phases, each playing a vital role in d
 
 - **Dockerfile Setup:**
 
-    Setup "Dockerfile" as mentioned [here]().
+    Setup "Dockerfile" as mentioned [here](https://github.com/umairsiddique3171/fare_forecaster/blob/main/app/Dockerfile).
 
 - **Build Docker Image:**
 
@@ -164,7 +166,7 @@ This project is structured into three key phases, each playing a vital role in d
         This command will push the tagged image to your Docker Hub repository. Make sure you have appropriate permissions to push to the repository.
 
 ## License
-This project is licensed under the [MIT License]().
+This project is licensed under the [MIT License](https://github.com/umairsiddique3171/fare_forecaster/blob/main/LICENSE).
 
 ## Author 
 [@umairsiddique3171](https://github.com/umairsiddique3171)
